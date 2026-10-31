@@ -1,0 +1,18 @@
+# Local configuration (never commit: holds machine paths and credentials)
+config.sh
+config.ps1
+*.local.*
+.env
+.env.*
+
+# Secrets and runtime artifacts
+auth.json
+*.log
+*.bak*
+.trash/
+state/
+logs/
+reports/
+__pycache__/
+*.pyc
+dist/
